@@ -274,7 +274,7 @@ section h2, .add-method h2 {
     position: relative;
 }
 
-@media (max-width: 1920px) and (min-width: 769px) {
+@media (max-width: 1919px) and (min-width: 769px) {
     .hero img {
         width: 768px;
         height: 350px;
