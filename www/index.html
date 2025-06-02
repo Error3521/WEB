@@ -1,11 +1,14 @@
-<!DOCTYPE html>
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>QuartzVinil — Оплата и доставка</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -18,12 +21,12 @@
         </div>
         <div class="info-geo">
           <img src="https://www.svgrepo.com/show/532540/location-pin-alt-1.svg" alt="geolacation"
-            style="max-height: 18px; max-width: 18px" />
+            style="max-height: 24px; max-width: 24px">
           <p>Москва</p>
         </div>
       </div>
       <div class="search">
-        <input type="search" placeholder="Поиск.." />
+        <input type="search" placeholder="Поиск..">
       </div>
       <div class="actions">
         <button>Заказать звонок</button>
@@ -32,7 +35,7 @@
     </div>
 
     <header>
-      <div class="logo"><img src="img/logo.png" /></div>
+      <div class="logo"><img src="img/logo.png"></div>
       <nav class="main-menu">
         <ul>
           <li>
@@ -58,7 +61,7 @@
     </nav>
 
     <section class="hero">
-      <img src="image.png" alt="Паркетный пол" />
+      <img src="image.png" alt="Паркетный пол">
     </section>
 
     <section>
@@ -70,7 +73,7 @@
             <p>При получении товара на складе или курьеру</p>
           </div>
           <div class="icon">
-            <img src="img/wal.png" alt="wal" />
+            <img src="svg/icon _wallet_.svg" alt="wal">
           </div>
         </div>
         <div class="card">
@@ -78,16 +81,26 @@
             <h3>Банковской картой</h3>
             <p>При получении товара на складе или курьеру</p>
             <div class="logos">
-              <img src="https://img.icons8.com/?size=50&id=1429&format=png" alt="Visa" />
-              <img src="https://img.icons8.com/?size=48&id=62765&format=png" alt="Mastercard" />
-              <img src="https://img.icons8.com/?size=48&id=59239&format=png" alt="Мир" />
-              <img
-                src="https://avatars.mds.yandex.net/i?id=d92ecacffdd3351e6f7af155a6adc33a247ac118241c93d7-5666317-images-thumbs&n=13"
-                alt="СБП" />
+              <img src="img/visa.png" alt="Visa" style="
+    height: 20px;
+    width: 65px;
+">
+              <img src="img/MasterCard_.png" alt="Mastercard" style="
+    height: 30px;
+    width: 51px;
+">
+              <img src="img/mir.png" alt="Мир" style="
+    width: 71px;
+    height: 20px;
+">
+              <img src="img/SBP.png" alt="СБП" style="
+    width: 80px;
+    height: 40px;
+">
             </div>
           </div>
           <div class="icon">
-            <img src="img/card.png" alt="card" />
+            <img src="svg/icon _card_.svg" alt="card">
           </div>
         </div>
         <div class="card">
@@ -95,7 +108,7 @@
             <h3>Безналичный расчёт</h3>
             <p>Безналичная оплата по выставленному счёту</p>
           </div>
-          <div class="icon"><img src="img/dol.png" alt="dollar" /></div>
+          <div class="icon"><img src="svg/icon _money refund dollar_.svg" alt="dollar"></div>
         </div>
       </div>
     </section>
@@ -139,22 +152,22 @@
       <form id="addMethodForm">
         <div class="form-group">
           <label for="type">Тип:</label>
-          <select id="type" name="type" required>
+          <select id="type" name="type" required="">
             <option value="payment">Оплата</option>
             <option value="delivery">Доставка</option>
           </select>
         </div>
         <div class="form-group">
           <label for="title">Название:</label>
-          <input type="text" id="title" name="title" required>
+          <input type="text" id="title" name="title" required="">
         </div>
         <div class="form-group">
           <label for="text">Описание:</label>
-          <textarea id="text" name="text" required></textarea>
+          <textarea id="text" name="text" required=""></textarea>
         </div>
         <div class="form-group">
           <label for="icon">URL иконки:</label>
-          <input type="text" id="icon" name="icon">
+          <input type="text" id="icon" name="icon" required="">
         </div>
         <button type="submit" class="btn">Добавить</button>
       </form>
@@ -167,11 +180,11 @@
         Оставьте, пожалуйста, свои контакты, и мы перезвоним в ближайшее время
       </p>
       <form>
-        <input type="text" placeholder="Имя" required />
+        <input type="text" placeholder="Имя" required="">
         <div class="consent">
-          <input type="tel" placeholder="+7 (___) ___-__-__" required />
+          <input type="tel" placeholder="+7 (___) ___-__-__" required="">
           <div class="consent1">
-            <input type="checkbox" id="consent" required />
+            <input type="checkbox" id="consent" required="">
             <label for="consent">даю согласие на обработку персональных данных</label>
           </div>
         </div>
@@ -182,11 +195,12 @@
 
     <footer>
       <div class="container footer">
-        <div class="col">
-          <div class="logo"><img src="img/logo.png" /></div>
-          <img src="img/yandex.png" alt="yandex" />
+        <div class="footer-logo-rating">
+          <div class="logo"><img src="img/logo.png" alt="Quartzvinil"></div>
+          <img src="img/rating.png" alt="rating">
+
         </div>
-        <div class="col">
+        <div class="footer-col">
           <ul>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">О компании</a></li>
@@ -194,7 +208,7 @@
             <li><a href="#">Преимущества</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="footer-col">
           <ul>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">О компании</a></li>
@@ -202,7 +216,7 @@
             <li><a href="#">Преимущества</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="footer-col">
           <ul>
             <li><a href="#">Оплата и доставка</a></li>
             <li><a href="#">Отзывы</a></li>
@@ -210,36 +224,57 @@
             <li><a href="#">Контакты</a></li>
           </ul>
         </div>
-        <div class="col">
-          <h3>+7 (495) 032 08 12</h3>
-          <h3>hello@royce-spc.ru</h3>
-          <div class="socials">
-            <div class="socials-cycle"><a href="#"><img src="https://www.svgrepo.com/show/501054/vk.svg" alt="VK" /></a>
+        <div class="footer-col">
+          <div class="footer-contacts">
+            <div class="footer-phone">+7 (495) 032 08 12</div>
+            <div class="footer-email">hello@royce-spc.ru</div>
+            <div class="footer-socials">
+              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/501054/vk.svg" alt="VK"></a>
+              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/512399/instagram-167.svg"
+                  alt="Instagram"></a>
+              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/512120/facebook-176.svg"
+                  alt="Facebook"></a>
             </div>
-            <div class="socials-cycle"><a href="#"><img src="https://www.svgrepo.com/show/512399/instagram-167.svg"
-                  alt="Instagram" /></a></div>
-            <div class="socials-cycle"><a href="#"><img src="https://www.svgrepo.com/show/512120/facebook-176.svg"
-                  alt="Facebook" /></a></div>
           </div>
         </div>
-        <div class="col" style="width: 207px">
-          <a href="#">Политика конфиденциальности</a>
-        </div>
-        <div class="col payments">
-          <h4>Способы оплаты</h4>
-          <div class="colpl">
-            <img src="https://img.icons8.com/?size=50&id=1429&format=png" alt="Visa" />
-            <img src="https://img.icons8.com/?size=48&id=62765&format=png" alt="Mastercard" />
-            <img src="https://img.icons8.com/?size=48&id=59239&format=png" alt="Мир" />
-            <img
-              src="https://avatars.mds.yandex.net/i?id=d92ecacffdd3351e6f7af155a6adc33a247ac118241c93d7-5666317-images-thumbs&n=13"
-              alt="СБП" />
+      </div>
+      <div class="footer-bottom container">
+        <div class="footer-policy"><a href="#">Политика конфиденциальности</a></div>
+
+        <div class="footer-payments">
+          <span class="footer-payments-title">Способы оплаты</span>
+          <div class="footer-payments-flex">
+            <img src="img/visa.png" alt="Visa" style="
+    height: 20px;
+    width: 65px;
+">
+            <img src="img/MasterCard_.png" alt="Mastercard" style="
+    height: 30px;
+    width: 51px;
+">
+            <img src="img/mir.png" alt="Мир" style="
+    width: 71px;
+    height: 20px;
+">
+            <img src="img/SBP.png" alt="СБП" style="
+    width: 80px;
+    height: 40px;
+">
           </div>
+
         </div>
       </div>
     </footer>
   </div>
   <script src="./js.js"></script>
+
+
+
+  <div class="troywell-caa"></div>
+  <div class="troywell-avia"></div>
+
 </body>
+<div class="troywell-caa"></div>
+<div class="troywell-avia"></div>
 
 </html>
