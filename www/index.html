@@ -13,53 +13,6 @@
 
 <body>
   <div class="container">
-    <div class="top-bar">
-      <div class="info">
-        <div class="info-tel">
-          <div style="color: gray">09:00–21:00 (ежедневно)</div>
-          <div>+7 (495) 032 08 12</div>
-        </div>
-        <div class="info-geo">
-          <img src="https://www.svgrepo.com/show/532540/location-pin-alt-1.svg" alt="geolacation"
-            style="max-height: 24px; max-width: 24px">
-          <p>Москва</p>
-        </div>
-      </div>
-      <div class="search">
-        <img src="img/SearchIcon.png" alt="Search" class="search-icon" />
-        <input type="search" placeholder="Поиск..">
-      </div>
-      <div class="actions">
-        <button>Заказать звонок</button>
-        <div class="cart"><img src="svg/ShoppingIcon.svg" alt="cart"></div>
-      </div>
-    </div>
-
-    <header>
-      <div class="logo"><img src="img/logo.png"></div>
-      <nav class="main-menu">
-        <ul>
-          <li>
-            <a href="#">Каталог ▾</a>
-            <ul>
-              <li><a href="#">Подкатегория 1</a></li>
-              <li><a href="#">Подкатегория 2</a></li>
-            </ul>
-          </li>
-          <li><a href="#">О компании</a></li>
-          <li><a href="#">Услуги</a></li>
-          <li><a href="#">Преимущества</a></li>
-          <li><a href="#">Оплата и доставка</a></li>
-          <li><a href="#">Отзывы</a></li>
-          <li><a href="#">Вопросы и ответы</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <nav class="breadcrumbs">
-      <a href="#">Главная</a><span>›</span><span>Оплата и доставка</span>
-    </nav>
 
     <section class="hero">
       <img src="image.png" alt="Паркетный пол">
@@ -116,7 +69,7 @@
 
     <section>
       <h2>Доставка товара</h2>
-      <p>
+      <p class="deck">
         Доставка товара осуществляется по тарифным зонам в течение 1–2 рабочих
         дней
       </p>
@@ -175,107 +128,7 @@
       <p>Для удаления добавленного метода наведите на карточку и нажмите ×</p>
       <p>Для доставки url можно не указывать.</p>
     </section>
-    <section class="cta">
-      <h2>Остались вопросы или нужна помощь с выбором?</h2>
-      <p>
-        Оставьте, пожалуйста, свои контакты, и мы перезвоним в ближайшее время
-      </p>
-      <form>
-        <input type="text" placeholder="Имя" required="">
-        <div class="consent">
-          <input type="tel" placeholder="+7 (___) ___-__-__" required="">
-          <div class="consent1">
-            <input type="checkbox" id="consent" required="">
-            <label for="consent">даю согласие на обработку персональных данных</label>
-          </div>
-        </div>
-
-        <button type="submit">Перезвоните мне</button>
-      </form>
-    </section>
-
-    <footer>
-      <div class="container footer">
-        <div class="footer-logo-rating">
-          <div class="logo"><img src="img/logo.png" alt="Quartzvinil"></div>
-          <img src="img/rating.png" alt="rating">
-
-        </div>
-        <div class="footer-col">
-          <ul>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">О компании</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Преимущества</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <ul>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">О компании</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Преимущества</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <ul>
-            <li><a href="#">Оплата и доставка</a></li>
-            <li><a href="#">Отзывы</a></li>
-            <li><a href="#">Вопросы и ответы</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <div class="footer-contacts">
-            <div class="footer-phone">+7 (495) 032 08 12</div>
-            <div class="footer-email">hello@royce-spc.ru</div>
-            <div class="footer-socials">
-              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/501054/vk.svg" alt="VK"></a>
-              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/512399/instagram-167.svg"
-                  alt="Instagram"></a>
-              <a class="socials-cycle" href="#"><img src="https://www.svgrepo.com/show/512120/facebook-176.svg"
-                  alt="Facebook"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom container">
-        <div class="footer-policy"><a href="#">Политика конфиденциальности</a></div>
-
-        <div class="footer-payments">
-          <span class="footer-payments-title">Способы оплаты</span>
-          <div class="footer-payments-flex">
-            <img src="img/visa.png" alt="Visa" style="
-    height: 20px;
-    width: 65px;
-">
-            <img src="img/MasterCard_.png" alt="Mastercard" style="
-    height: 30px;
-    width: 51px;
-">
-            <img src="img/mir.png" alt="Мир" style="
-    width: 71px;
-    height: 20px;
-">
-            <img src="img/SBP.png" alt="СБП" style="
-    width: 80px;
-    height: 40px;
-">
-          </div>
-
-        </div>
-      </div>
-    </footer>
-  </div>
+    
   <script src="./js.js"></script>
-
-
-
-  <div class="troywell-caa"></div>
-  <div class="troywell-avia"></div>
-
 </body>
-<div class="troywell-caa"></div>
-<div class="troywell-avia"></div>
-
 </html>
